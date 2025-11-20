@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="70dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/rectangle_line" />
+
+        <RelativeLayout
+            android:id="@+id/layReCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:layout_toStartOf="@+id/ivEdArwDown"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/reference_code"
+                android:textColor="@color/textView_home"
+                android:textSize="17sp"
+                tools:text="@string/reference_code" />
+
+            <ImageView
+                android:id="@+id/ivEdArwDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_arrow_setting" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layLuckyWheel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:layout_toStartOf="@+id/ivEdArwFav"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/spinner"
+                android:textColor="@color/textView_home"
+                android:textSize="17sp"
+                tools:text="@string/spinner" />
+
+            <ImageView
+                android:id="@+id/ivEdArwFav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_arrow_setting" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layChangePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:layout_toStartOf="@+id/ivEdArwChangePass"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/change_password"
+                android:textColor="@color/textView_home"
+                android:textSize="17sp"
+                tools:text="@string/change_password" />
+
+            <ImageView
+                android:id="@+id/ivEdArwChangePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_arrow_setting" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:layout_toStartOf="@+id/ivEdArw"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/logout"
+                android:textColor="@color/textView_home"
+                android:textSize="17sp"
+                tools:text="@string/logout" />
+
+            <ImageView
+                android:id="@+id/ivEdArw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_arrow_setting" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layDeleteAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:layout_toStartOf="@+id/ivEdArw2"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/delete_account"
+                android:textColor="@color/textView_home"
+                android:textSize="17sp"
+                tools:text="@string/delete_account" />
+
+            <ImageView
+                android:id="@+id/ivEdArw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_arrow_setting" />
+        </RelativeLayout>
+
+     </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="navigation_drawer">#000000</color>
+    <color name="navigation_bottom">#000000</color>
+    <color name="active_bottomBar">#f20056</color>
+    <color name="inactive_bottomBar">#FFFFFF</color>
+    <color name="toolbar">#000000</color>
+    <color name="app_background">#000000</color>
+    <color name="drawer_item">#FFFFFF</color>
+    <color name="drawer_item_selected">#f20056</color>
+
+    <color name="info">#fcdd7a</color>
+    <color name="info_black">#000000</color>
+    <color name="welcome_one">#3fba91</color>
+    <color name="welcome_two">#198de0</color>
+    <color name="welcome_three">#f77c69</color>
+    <color name="selectedColor">#f20056</color>
+    <color name="unselectedColor">#969696</color>
+
+    <color name="view_login">#CFCFCF</color>
+    <color name="textView_login">#FFFFFF</color>
+    <color name="textView_hint_login">#CFCFCF</color>
+    <color name="textView_line_login">#0FF20056</color>
+    <color name="check_box_bg_login">#FFFFFF</color>
+    <color name="check_box_check_bg_login">#FFFFFF</color>
+    <color name="check_box_tick_login">#f20056</color>
+    <color name="check_box_circle_login">#f20056</color>
+    <color name="button_google_line">#D9372A</color>
+    <color name="textView_register">#424242</color>
+    <color name="textView_hint_register">#CFCFCF</color>
+    <color name="textView_already_register">#FFFFFF</color>
+    <color name="textView_login_register">#ffd973</color>
+    <color name="textView_title_fp">#FFFFFF</color>
+    <color name="textView_fp">#FFFFFF</color>
+    <color name="imageView_fp">#f20056</color>
+    <color name="line_fp">#FFFFFF</color>
+    <color name="color_reg_verification">#666666</color>
+    <color name="textView_verification">#FFFFFF</color>
+    <color name="textView_erc">#FFFFFF</color>
+    <color name="textView_detail_erc">#FFFFFF</color>
+
+    <color name="item_text_pro">#FFFFFF</color>
+    <color name="user_bg_pro">#000000</color>
+    <color name="view_pro">#222222</color>
+    <color name="view_line_pro">#BFFFFFFF</color>
+    <color name="textView_pro_image">#FFFFFF</color>
+    <color name="bg_image_pro">#222222</color>
+    <color name="imageView_border_pro">#EAEAEA</color>
+    <color name="textView_userName_editPro">#FFFFFF</color>
+    <color name="textView_pro">#FFFFFF</color>
+    <color name="textView_number_pro">#FFFFFF</color>
+    <color name="editText_editPro">#FFFFFF</color>
+    <color name="textView_hint_editPro">#FFFFFF</color>
+    <color name="textView_hint_layout_editPro">#f20056</color>
+    <color name="textView_box_color">#99FFFFFF</color>
+    <color name="textView_box_select_color">#f20056</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">
+        @color/textView_box_color
+    </color>
+    <color name="textView_user_follow">#FFFFFF</color>
+
+    <color name="line_language">#585858</color>
+    <color name="line_language_select">#F20056</color>
+    <color name="bg_color_language">#F0F0F0</color>
+    <color name="textView_title_language">#FFFFFF</color>
+    <color name="textView_select_language_adapter">#FFFFFF</color>
+    <color name="textView_language_adapter">#424242</color>
+    <color name="textView_language">#FFFFFF</color>
+    <color name="app_bg_language">#000000</color>
+
+    <color name="cat_bg_home_main">#000000</color>
+    <color name="textView_home">#FFFFFF</color>
+    <color name="selectedColor_home">#f20056</color>
+    <color name="unselectedColor_home">#969696</color>
+    <color name="textView_homeCat_adapter">#FFFFFF</color>
+    <color name="textView_homeCat_select_adapter">#f20056</color>
+
+    <color name="textView_title_adapter">#FFFFFF</color>
+    <color name="textView_adapter">#FFFFFF</color>
+    <color name="textView_cat_adapter">#686868</color>
+    <color name="textView_subtitle_adapter">#FFFFFF</color>
+    <color name="sub_cat_bg">#1E1E1E</color>
+    <color name="cat_name_bg">#E4E4E4</color>
+    <color name="review_bg">#80000000</color>
+
+    <color name="view_scd">#73FFFFFF</color>
+    <color name="textView_scd">#FFFFFF</color>
+    <color name="textView_user_scd">#FFFFFF</color>
+    <color name="editText_comment_scd">#FFFFFF</color>
+    <color name="textView_title_scd">#FFFFFF</color>
+    <color name="imageView_border_scd">#73FFFFFF</color>
+    <color name="textView_comment_bg_scd">#000000</color>
+    <color name="conRelated_scd">#000000</color>
+    <color name="cardView_comment_bg">#262626</color>
+    <color name="textView_comment_adapter">#FFFFFF</color>
+    <color name="textView_delete_comment_adapter">#f20056</color>
+    <color name="imageView_comment_adapter">#EAEAEA</color>
+    <color name="view_bottom_sheet">#FFFFFF</color>
+    <color name="bottom_sheet_bg">#000000</color>
+    <color name="textView_title_bottomSheet">#FFFFFF</color>
+    <color name="textView_subTitle_bottomSheet">#FFFFFF</color>
+
+    <color name="background_us">#000000</color>
+    <color name="bg_us_adapter">#000000</color>
+    <color name="line_video_us">#85C6E6</color>
+    <color name="line_quotes_us">#87E4B5</color>
+    <color name="line_image_us">#E4B273</color>
+    <color name="line_gif_us">#E98494</color>
+    <color name="textView_title_us">#FFFFFF</color>
+    <color name="textView_us">#FFFFFF</color>
+    <color name="textView_us_adapter">#FFFFFF</color>
+    <color name="textView_upload">#FFFFFF</color>
+    <color name="textView_hint_upload">#FFFFFF</color>
+    <color name="textView_spinner_item">#FFFFFF</color>
+
+    <color name="textView_title_reference_code">#FFFFFF</color>
+    <color name="textView_reference_code">#424242</color>
+    <color name="textView_copy_reference_code">#f20056</color>
+    <color name="textView_earnPoint_adapter">#FFFFFF</color>
+    <color name="button_text_reward_point_fragment">#000000</color>
+    <color name="textView_totalReward_point_fragment">#ffd973</color>
+    <color name="tab_indicator_reward_point_fragment">#ffd973</color>
+    <color name="textView_point_menu">#ffd973</color>
+
+    <color name="textView_rpc">#FFFFFF</color>
+    <color name="editText_rpc">#FFFFFF</color>
+    <color name="textView_rp_adapter">#FFFFFF</color>
+    <color name="textView_hint_layout_rpc">#ffd973</color>
+    <color name="textView_box_select_color_rpc">#ffd973</color>
+
+    <color name="textView_title_history_point">#FFFFFF</color>
+    <color name="textView_date_history_point">#FFFFFF</color>
+
+    <color name="textView_title_td">#FFFFFF</color>
+    <color name="textView_subTitle_td">#FFFFFF</color>
+    <color name="textView_title_av">#FFFFFF</color>
+    <color name="textView_sub_av">#FFFFFF</color>
+
+    <color name="ll_detail_status_detail">#80000000</color>
+
+    <color name="textView_setting">#FFFFFF</color>
+    <color name="view_setting">#D7D7D7</color>
+    <color name="about_us_Text">#FFFFFF</color>
+    <color name="about_us_SubText">#FFFFFF</color>
+    <color name="about_name_line">#EB0000</color>
+    <color name="line_contact_us">#a5a5a5</color>
+    <color name="textView_contactUs">#FFFFFF</color>
+    <color name="textView_them">#FFFFFF</color>
+    <color name="card_bg_them">#424040</color>
+    <color name="textView_dialog_update">#FFFFFF</color>
+
+    <color name="textView_view_ad">#FFFFFF</color>
+    <color name="textView_detail_view_ad">#FFFFFF</color>
+
+    <color name="title_nf">#000000</color>
+    <color name="sub_title_nf">#838383</color>
+    <color name="progress_drawable_bg_nf">#D1D1D1</color>
+    <color name="icon_nf">#f20056</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#ff99cc00</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#ffd973</color>
+    <color name="yellow_second">#feb007</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="check_box">#FFFFFF</color>
+    <color name="check_box_select">#f20056</color>
+    <color name="image_color">#FFFFFF</color>
+    <color name="dropdown_arrow">#FFFFFF</color>
+    <color name="switch_thumb_unSelect">#ADADAD</color>
+    <color name="progressbar_style">#FFFFFF</color>
+    <color name="dialog_text">#FFFFFF</color>
+    <color name="dialog_text_button">#FFFFFF</color>
+    <color name="cursor_editText">#FFFFFF</color>
+    <color name="textView_noData">#FFFFFF</color>
+    <color name="textView_app_color">#f20056</color>
+    <color name="button_bg">#f20056</color>
+
+    <color name="detail_line">#b2d9d9d9</color>
+    <color name="tab_text_normal">#FFFFFF</color>
+    <color name="tab_text_select">#f20056</color>
+    <color name="tab_text_indicator">#f20056</color>
+    <color name="rect_line">#A5A5A5</color>
+    <color name="about_icon_bg">#1FF20056</color>
+    <color name="setting_line">#1A484848</color>
+    <color name="profile_border">#F53378</color>
+    <color name="edt_top_text">#4F4D4E</color>
+    <color name="upload_edt_border">#ffffff</color>
+    <color name="login_welcome_title">#FFFFFF</color>
+    <color name="login_welcome_sub">#F7F7F7</color>
+    <color name="cursor_editText_login">#f20056</color>
+    <color name="textView_login_new">#424242</color>
+</resources>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cat_bg_home_main"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_editPro"
+        android:fadeScrollbars="false"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/con_main_cp_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/view_editPro"
+                    android:layout_width="0dp"
+                    android:layout_height="240dp"
+                    android:background="@color/view_pro"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView_user_editPro"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="55dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="@color/profile_border"
+                    app:civ_border_width="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView_edit_editPro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_add_profile_white"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_user_editPro"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_user_editPro" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textView_name_cp_fragment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="18dp"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/textView_userName_editPro"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_editPro"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_user_editPro" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/linearBottomMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/profile_bottom_sheet"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput_name_editPro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="@string/name"
+                    style="@style/TextInputLayoutAppearance"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="2dp"
+                    android:textColorHint="@color/edt_top_text"
+                    app:boxStrokeColor="@color/edt_box_stroke"
+                    app:hintTextColor="@color/edt_top_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText_name_editPro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="18dp"
+                        android:singleLine="true"
+                        android:textColor="@color/editText_editPro"
+                        android:theme="@style/editText_style" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput_email_editPro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="@string/email"
+                    style="@style/TextInputLayoutAppearance"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="2dp"
+                    android:textColorHint="@color/edt_top_text"
+                    app:boxStrokeColor="@color/edt_box_stroke"
+                    app:hintTextColor="@color/edt_top_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText_email_editPro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="18dp"
+                        android:textColor="@color/editText_editPro"
+                        android:theme="@style/editText_style" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput_phone_editPro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="@string/phoneNo"
+                    style="@style/TextInputLayoutAppearance"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="2dp"
+                    android:textColorHint="@color/edt_top_text"
+                    app:boxStrokeColor="@color/edt_box_stroke"
+                    app:hintTextColor="@color/edt_top_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText_phone_editPro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="18dp"
+                        android:textColor="@color/editText_editPro"
+                        android:theme="@style/editText_style" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput_youtube_editPro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="@string/youtube"
+                    style="@style/TextInputLayoutAppearance"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="2dp"
+                    android:textColorHint="@color/edt_top_text"
+                    app:boxStrokeColor="@color/edt_box_stroke"
+                    app:hintTextColor="@color/edt_top_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText_youtube_editPro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="18dp"
+                        android:singleLine="true"
+                        android:textColor="@color/editText_editPro"
+                        android:theme="@style/editText_style" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput_instagram_editPro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="@string/instagram"
+                    style="@style/TextInputLayoutAppearance"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="2dp"
+                    android:textColorHint="@color/edt_top_text"
+                    app:boxStrokeColor="@color/edt_box_stroke"
+                    app:hintTextColor="@color/edt_top_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText_instagram_editPro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="18dp"
+                        android:textColor="@color/editText_editPro"
+                        android:theme="@style/editText_style" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+             </LinearLayout>
+
+         </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        layout="@layout/no_data_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar_editPro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:theme="@style/ProgressBar" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_editPro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/update"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_bg"
+        app:cornerRadius="10dp" />
+</RelativeLayout>
